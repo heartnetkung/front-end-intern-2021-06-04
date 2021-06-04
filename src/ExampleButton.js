@@ -8,7 +8,7 @@ function Example(props) {
 	// console.log("e4");
 
 	useEffect(() => {
-		console.log("e1");
+		// console.log("e1");
 		var intervalId = setInterval(() => {
 			setTime((time) => time + 1);
 			// console.log("e3");
@@ -17,7 +17,7 @@ function Example(props) {
 	}, []);
 
 	useEffect(() => {
-		console.log("e2");
+		// console.log("e2");
 		document.title = `you click ${count}`;
 	}, [count]);
 
